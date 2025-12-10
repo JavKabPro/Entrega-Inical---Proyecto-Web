@@ -1,0 +1,6 @@
+"# archivos y carpetas a ignorar" 
+".DS_store" 
+"Thumbs.db" 
+"/node_modules/" 
+".vscode/" 
+".idea/" 
