@@ -29,7 +29,7 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;display: block;}
 /*end reset*/
 body{
-	color:#959595;
+	color:#cc4545;
 	font-family: trebuchet ms;
 	text-align:justify;
 }
@@ -630,5 +630,3 @@ form textarea, form input[type=submit], form input[type=text] {
 	font-size:14px;
 }
 }
-
-
