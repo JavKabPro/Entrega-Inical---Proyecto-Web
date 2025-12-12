@@ -30,7 +30,7 @@ img{max-width:100%;display: block;}
 /*end reset*/
 body{
 	color:#cc4545;
-	font-family: trebuchet ms;
+	font-family: sans-serif;
 	text-align:justify;
 }
 .wrap{
@@ -45,16 +45,17 @@ body{
 	margin:0 auto;
 	width:1024px;
 }
-.other_logo{
-	width: 200px;
-	height: 42px;
+.logo{
+	width: 80px;
+	height: 30px;
 	float: left;
 	margin: 15px 0 0 0;
 }
 .logo h1 a{
 	color: #121212;
-	font: bold 32px/1.2em Arial, Helvetica, sans-serif;
+	font: .8em Arial, Helvetica, sans-serif;
 }
+
 .logo h2{
 	margin:0;
 	padding-left:120px;
@@ -97,13 +98,15 @@ body{
 	color:white;
 }
 .desp h1{
-	font: normal 30px Arial, Helvetica, sans-serif;
-	
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
 }
+
 .desp p{
-	font: normal 14px Arial, Helvetica, sans-serif;
-	line-height: 1.8em;
-	padding:10px 0 0 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
 }
 #main{
 	padding:70px 0 100px 0;
@@ -156,8 +159,9 @@ form textarea{
 	
 }
 .contact h3{
-	color:#333;
-	font: bold 28px/1.2em Arial, Helvetic;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
 }
 .content{
 	float:left;
@@ -171,14 +175,17 @@ form textarea{
 	margin-bottom: 35px;
 }
 #article h2{
-	color:#444;
-	padding-bottom: 15px;
-	font: bold 28px/1.2em Arial, Helvetic;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 #article p{
-	font-size: 14px;
-	line-height: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
 }
+
 #prev{
 	float:left;
 	padding:0 15px 5px 0;
@@ -334,10 +341,10 @@ form textarea, form input[type=submit], form input[type=text] {
 }
 }
 
-@media (max-width: 450px) {
-.other_logo {
-    width: 135px;
-    height: 40px;
+@media (max-width: 900px) {
+.logo {
+    width: 270px;
+    height: 75px;
 }
 .mac {
 	margin: 15px auto 0;
@@ -352,7 +359,7 @@ form textarea, form input[type=submit], form input[type=text] {
 }
 
 @media (max-width: 400px) {
-.other_logo {
+logo {
     width: 120px;
     height: 35px;
 }
@@ -370,7 +377,7 @@ form textarea, form input[type=submit], form input[type=text] {
 .nav li {
 	padding: 0 5px;
 }
-.other_logo {
+logo {
     width: 115px;
     height: 35px;
 	margin: 25px 0 0 0;
@@ -415,7 +422,7 @@ form textarea, form input[type=submit], form input[type=text] {
 .nav li {
     padding: 0 0px;
 }
-.other_logo {
+logo {
     width: 210px;
     height: 65px;
 }
@@ -431,7 +438,7 @@ form div {
 }
 
 @media (max-width: 640px) {
-.other_logo {
+logo {
     width: 200px;
 }
 }
